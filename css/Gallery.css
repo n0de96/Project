@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+html, body {height:100%;}
+* {margin:0; padding:0; box-sizing: border-box; font-family: 'Saira Extra Condensed', sans-serif;}
+
+nav 
+{
+    height:20%; color:black;
+    display:flex; justify-content:center;
+    align-items:center; text-align:center;
+}
+section 
+{
+    height:100%;  
+    display:flex; flex-flow: column wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+body {background:url("../img/dark.png"); background-size:cover;}
+a {text-decoration:none;}
+
+div {height:30%; width:45%; border:solid 1px;}
+
+#low {height:50px;width:150px;background-color:gray; position:relative;}
+#min {height:50px;width:150px;background-color:gray; position:relative;}
+#mid {height:50px;width:150px;background-color:gray; position:relative;}
+#hi {height:50px;width:150px;background-color:gray; position:relative;}
+
+#div1 {background:url("../img/Beach.jpg"); background-size:cover;}
+#div2 {background:url("../img/Blue.jpg"); background-size:cover;}
+#div3 {background:url("../img/Green.jpg"); background-size:cover;}
+#div4 {background:url("../img/Winter.jpg"); background-size:cover;}
+#div5 {background:url("../img/Orange.jpg"); background-size:cover;}
+#div6 {background:url("../img/Night.jpg"); background-size:cover;}

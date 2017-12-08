@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+/* font-family: 'Saira Extra Condensed', sans-serif; when citing web font.*/
+html, body {height:100%;}
+* {margin:0; padding: 0; box-sizing:border-box; font-family: 'Saira Extra Condensed', sans-serif;}
+
+nav 
+{   height:25%; width:100%; text-align:center;
+    display:flex;  color:white; 
+    
+}
+a {text-decoration: none; width:100%;}
+section 
+{   
+    height:65%; border: none;
+    display:flex; 
+    align-items: center;
+}
+body { background:url("../img/dark.png"); background-size:cover;}
+
+div {height:100%; width:25%; border: solid 1px;}
+
+#box1 {background:url("../img/Beach1.png");; position:relative; width:30%;}
+#box2 {background:url("../img/Blue1.png"); position:relative; top:3%; right:3%; display:none;}
+#box3 {background:url("../img/Green1.png");; position:relative; top:5%; right:5%; display:none;}
+#box4 {background:url("../img/Winter1.png"); position:relative; top:7%; right:5%; display:none;}
+
+#low {width:110%;background-color:gray; position:relative; top:50%; display:none;}
+#min {width:100%;background-color:gray; position:relative; top:65%; left:5%; display:none;}
+#mid {width:100%;background-color:gray; position:relative;top:75%; right:9%; display:none;}
+#hi {width:90%;background-color:gray; position:relative; top:95%; right:11%; display:none;}

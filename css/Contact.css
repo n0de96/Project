@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+html, body {height:100%;}
+* {margin:0; padding:0; box-sizing:border-box; font-family: 'Saira Extra Condensed', sans-serif;}
+
+section {height:40%; color:white;}
+nav 
+{
+    height:60%; text-align:center; color:white;
+    display:flex;
+    
+}
+
+a {text-decoration: none;}
+div {height:100%; width:100%; border:solid 1px;}
+body { background:url("../img/dark.png"); background-size:cover;}
+
+
+#low {
+    height:300px;width:120px;background-color:gray; position:relative;
+    top:10%;left:10%;}
+#min {
+    height:250px;width:120px;background-color:gray; position:relative;
+    top:45%; right:2%;}
+#mid {
+    height:200px;width:120px;background-color:gray; position:relative;
+    top:75%; right:9%; }
+#hi {
+    height:150px;width:120px;background-color:gray; position:relative;
+    top:99%; right:11%;}
+
+#text {position:relative; top:50%;}
